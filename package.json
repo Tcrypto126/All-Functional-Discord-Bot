@@ -1,0 +1,26 @@
+{
+  "name": "ca_aggr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start1": "nodemon 2CA5MINS.js",
+    "start": "concurrently \"node 2CA5MINS.js\" \"node 2CA10MINS.js\" \"node 2CA15MINS.js\" \"node 3CA5MINS.js\" \"node 3CA10MINS.js\" \"node 3CA15MINS.js\" \"node 5CA5MINS.js\" \"node 5CA10MINS.js\" \"node 5CA15MINS.js\" \"node CA_Spams.js\" \"node Non_CAs.js\" \"node CALLERS_AGGR.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.20.1",
+    "@solana/spl-token-registry": "^0.2.4574",
+    "@solana/web3.js": "^1.95.3",
+    "discord.js": "^14.16.1",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

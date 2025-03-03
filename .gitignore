@@ -1,0 +1,13 @@
+.env
+node_modules
+package-lock.json
+pumpresrch.json
+metaplex.js
+metaplex_resrch.json
+raydiumMints_info.js
+pumpfunMints_info.js
+pumpfunMints_resps.json
+2CA5MINS_updated.js
+updated_Metadata.js
+channels_info.js
+caTracker.json
